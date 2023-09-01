@@ -1,0 +1,56 @@
+body {
+  overflow-y: scroll;
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+}
+
+.mycontainer{
+  background-color: white;
+  padding-bottom: 1px;
+}
+
+.mynavbar {
+  background-image: url("../images/banner2.png");
+  background-size: cover;
+  background-color: white;
+  min-height: 200px;
+}
+
+.navschrift {
+  font-size: 120%;
+  font-variant: small-caps;
+   font-family: Verdana, Arial, sans-serif;
+}
+
+/*.nav-link {
+  color: white !important;
+}*/
+
+.mynavlink {
+  color: white !important;
+}
+
+.myactive {
+  font-weight: bold !important;
+}
+
+.myjumbotron {
+  background-color: #c2f0fb;
+}
+
+.footerborder {
+  border: solid 2px #c2f0fb;
+}
+
+.footernav {
+  color: red !important;
+}
+
+@media screen and (max-width: 991px){
+  .nav-link {
+    color: black !important;
+  }
+  .footernav {
+    color: red !important;
+  }
+}
